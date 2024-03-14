@@ -8,7 +8,6 @@ class Bag {
     getOwner(){
         return this.#owner;
     }
-
     assignOwner(person){
         this.#owner = person;
     }
